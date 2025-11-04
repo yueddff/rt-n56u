@@ -1,6 +1,7 @@
 name: Build RM2100 R2100
 
 on: 
+  workflow_dispatch:  # 添加这行来启用手动运行按钮
   release:
     types: [published]
 #  push:
